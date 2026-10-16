@@ -42,17 +42,14 @@ Existing solutions provide recycling guides, require physical smart-bin hardware
 
 ## 6. MVP Features
 
-- **User Registration and Login:** Allow users to create accounts and log in securely using JWT authentication.
-- **AI Waste Detection:** Allow users to upload waste images and view detected items with confidence scores.
-- **Waste Classification:** Classify waste into recyclable, reusable, biodegradable, and hazardous categories.
-- **Recycling Recommendations:** Provide suggestions for recycling, reusing, composting, or safely disposing of each item.
-- **Hazard Warnings:** Display safety warnings and disposal guidance for hazardous waste such as batteries, e-waste, and chemicals.
-- **Digital Twin Dashboard:** Display four virtual waste bins with estimated fill levels, status, and last collection details.
-- **Virtual Bin Updates:** Update estimated bin levels when users confirm waste scans and provide quantity information.
-- **Simulate Collection:** Provide a button to mark bins as collected, reset their estimated fill levels, and update collection history.
-- **Waste Analytics:** Display charts showing waste by category, recycled versus disposed waste, and waste trends over time.
-- **GenAI Chat Assistant:** Answer basic recycling-related questions and provide waste disposal guidance.
-- **Scan History:** Allow users to view their previous waste scans, classifications, and recommendations.
+- **User Registration and Login:** Allow users to create accounts and log in securely.
+- **AI Waste Detection and Classification:** Identify waste from uploaded images and classify it as recyclable, reusable, biodegradable, or hazardous.
+- **Smart Recycling Recommendations:** Suggest how to recycle, reuse, compost, or safely dispose of waste.
+- **Hazardous Waste Alerts:** Provide safety warnings and disposal guidance for batteries, electronic waste, and chemicals.
+- **Digital Twin Dashboard:** Display virtual waste bins with estimated fill levels and collection status.
+- **Waste Analytics:** Show charts of waste categories, recycling progress, and disposal statistics.
+- **GenAI Chat Assistant:** Answer recycling-related questions and provide disposal guidance.
+- **Scan History:** Store previous waste scans, classifications, and recommendations for users to review.
 
 ## 7. Suitable Technology Stack
 
@@ -75,7 +72,7 @@ Existing solutions provide recycling guides, require physical smart-bin hardware
 The **MERN stack** provides the foundation for developing the web application. **Python and FastAPI** support AI-based waste detection, while Recharts provides visual analytics. **MongoDB** stores waste records and virtual bin information. The application estimates bin fill levels using confirmed waste records without requiring physical sensors.
 
 
-## 8.Architectural Flow Diagram
+## 8. Architectural Flow Diagram
 
 The diagram below illustrates user interaction, frontend screens, backend processing, AI-based waste classification, database operations, and the delivery of results to the user.
 
