@@ -67,11 +67,6 @@ Existing solutions provide recycling guides, require physical smart-bin hardware
 | Version Control | Git + GitHub | Support team collaboration, branches, pull requests, and code reviews. |
 | Deployment | Vercel, Render, MongoDB Atlas | Host the frontend, backend, AI service, and database online. |
 
-
-
-The **MERN stack** provides the foundation for developing the web application. **Python and FastAPI** support AI-based waste detection, while Recharts provides visual analytics. **MongoDB** stores waste records and virtual bin information. The application estimates bin fill levels using confirmed waste records without requiring physical sensors.
-
-
 ## 8. Architectural Flow Diagram
 
 The diagram below illustrates user interaction, frontend screens, backend processing, AI-based waste classification, database operations, and the delivery of results to the user.
