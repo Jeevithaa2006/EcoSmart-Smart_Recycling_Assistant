@@ -79,7 +79,7 @@ The **MERN stack** provides the foundation for developing the web application. *
 
 The diagram below illustrates user interaction, frontend screens, backend processing, AI-based waste classification, database operations, and the delivery of results to the user.
 
-![EcoSmart System Architecture](images/architecture.png)
+[EcoSmart System Architecture](images/architecture.png)
 
  ##  Team Members
 
